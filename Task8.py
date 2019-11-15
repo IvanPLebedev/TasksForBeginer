@@ -4,11 +4,7 @@
 '''
 
 def polindrom(string):
-    if string == string[::-1]:
-        return True
-    else:
-        return False
-
+    return string == string[::-1]
 
 a = 'asdfdsa'
 b = 'reewer'
